@@ -1,0 +1,63 @@
+.test-printer {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.test-printer-container {
+    margin: auto;
+}
+
+.test-printer-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.test-printer-connector {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 12px;
+    gap: 24px;
+}
+
+.field-label {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #808080;
+    color: #fff;
+    margin: auto 0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.6;
+}
+
+.test-printer-msg {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: rgb(225, 225, 225);
+    border-radius: 12px;
+    gap: 24px;
+    margin: 24px 0;
+}
+
+.field-textarea {
+    width: 100%;
+}
